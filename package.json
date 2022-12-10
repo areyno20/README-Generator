@@ -8,11 +8,15 @@
   },
   "author": "Aidan Reynolds",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jpd61/README-generator/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/areyno20/README-Generator"
   },
-  "homepage": "https://github.com/jpd61/README-generator#readme",
+  "bugs": {
+    "url": "https://github.com/areyno20/README-Generator/issues"
+  },
+  "homepage": "https://github.com/areyno20/README-Generator#readme",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^6.5.2"
   }
 }
