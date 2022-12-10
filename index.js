@@ -1,5 +1,5 @@
 // TODO: Include packages needed for this application
-const generateReadME = require("generateReadME");
+const generateReadME = require("./utils/generateReadME.js")
 const inquirer = require('inquirer');
 const fs = require("fs");
 
@@ -78,7 +78,14 @@ const questions = [
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
-
+async function init() {
+    try {
+        const answers = await inquirer.prompt(questions);
+        const generateContent = generateReadME(answers);
+        await writeFileAsync('./created-readme/README.md', generateContent);
+    } catch (err) {
+        throw err;
+    }
+  }
 // Function call to initialize app
 init();
