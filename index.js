@@ -3,36 +3,36 @@ const inquirer = require('inquirer');
 const fs = require("fs");
 const util = require("util");
 const writeFileAsync = util.promisify(fs.writeFile);
-const generateReadME = require("./utils/generateReadME.js")
+const generateReadME = require("./utils/generateMarkdown.js")
 
 const questions = [
     { type: "input",
-      name: "Title",
+      name: "title",
       message: "What is the title of the project?",
     },
 
     { type: "input",
-      name: "Description",
+      name: "description",
       message: "Enter a brief description of your project:",
     },
 
     { type: "input",
-      name: "About",
+      name: "about",
       message: "Explain in more detail about your project:",
     },
 
     { type: "input",
-      name: "Installation",
+      name: "installation",
       message: "Are there any installation instructions for your project?",
     },
 
     { type: "input",
-      name: "Clone",
+      name: "clone",
       message: "Please put the link to clone the repository if applicable.",
     },
 
     { type: "list",
-      name: "License",
+      name: "license",
       message: "Please select the license that was used for the project.",
       choices: ["MIT",
                 "Apache",
@@ -44,12 +44,12 @@ const questions = [
     },
 
     { type: "input",
-      name: "Test",
+      name: "test",
       message: "Please enter any testing protocols if applicable for the project.",
     },
 
     { type: "input",
-      name: "Author",
+      name: "author",
       message: "What is the name of the person who created this project?",
     },
 
@@ -59,7 +59,7 @@ const questions = [
     },
 
     { type: "input",
-      name: "UserEmail",
+      name: "userEmail",
       message: "What is the email for the person who created this project?",
     },
 
@@ -69,7 +69,7 @@ const questions = [
     },
 
     { type: "input",
-      name: "Repo",
+      name: "repo",
       message: "What is the URL for the github repository?",
     },
   ];
