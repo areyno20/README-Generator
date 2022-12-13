@@ -3,9 +3,9 @@ function generateMarkdown(data) {
 ---------------------------------------------------------------------------------------
 
 ##  ${data.title}
-    ${data.description}
-    [![License](https://img.shields.io/badge/license-${data.license}-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-    [A deployed version can be viewed here.](${data.URL})
+${data.description}
+[![License](https://img.shields.io/badge/license-${data.license}-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[A deployed version can be viewed here.](${data.URL})
 
 
 ---------------------------------------------------------------------------------------

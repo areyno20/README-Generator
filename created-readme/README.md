@@ -2,9 +2,9 @@
 ---------------------------------------------------------------------------------------
 
 ##  README Generator
-    This project is used to display the skills learnt in module 9 node.js.
-    [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-    [A deployed version can be viewed here.](https://github.com/areyno20/README-Generator)
+This project has been utilised to display the skills learnt in the node.js module
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[A deployed version can be viewed here.](https://github.com/areyno20/README-Generator)
 
 
 ---------------------------------------------------------------------------------------
@@ -57,7 +57,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Installing
 
-Clone the repo and install the dependencies. Run terminal and type  node index.js
+Clone the repository, install the dependencies and run node index.js
 
 The repository can be cloned from:
     
@@ -83,6 +83,6 @@ This project is licensed under the MIT license.
 
 ## Contact Information:
 * GitHub Username: areyno20
-* GitHub Email: aidanreynolds715@gmail.com
+* GitHub Email: aidanryenolds715@gmail.com
 
 ----------------------------------------------------------------
